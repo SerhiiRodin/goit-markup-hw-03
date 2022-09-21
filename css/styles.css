@@ -113,6 +113,7 @@ p {
 .heroes {
   padding-top: 200px;
   padding-bottom: 200px;
+  text-align: center;
 
   background-color: var(--color-background-heroes);
 }
@@ -120,7 +121,7 @@ p {
 .heroes-titel {
   width: 696px;
   margin-bottom: 30px;
-
+  
   font-weight: 900;
   font-size: 44px;
   line-height: 1.36;

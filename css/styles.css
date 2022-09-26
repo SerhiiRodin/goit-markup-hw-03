@@ -63,8 +63,6 @@ p {
 
 /* HEADER */
 .header {
-  padding-top: 24px;
-  padding-bottom: 25px;
   border-bottom: 1px solid var(--color-border-head);
 }
 
@@ -98,8 +96,8 @@ p {
 
 .header-item {
   display: block;
-  padding-top: 15px;
-  padding-bottom: 15px;
+  padding-top: 32px;
+  padding-bottom: 32px;
 
   font-weight: 500;
   font-size: 14px;
@@ -128,8 +126,8 @@ p {
 
 .adress-item {
   display: block;
-  padding-top: 15px;
-  padding-bottom: 15px;
+  padding-top: 32px;
+  padding-bottom: 32px;
 
   font-weight: 500;
   font-size: 14px;
@@ -153,7 +151,7 @@ p {
 }
 
 .heroes-titel {
-  width: 696px;
+  max-width: 696px;
   margin-bottom: 30px;
   margin-left: auto;
   margin-right: auto;
@@ -173,6 +171,7 @@ p {
   border-radius: 4px;
   padding: 10px 32px;
   min-width: 216px;
+  border: none;
 
   color: var(--color-white);
   font-family: inherit;
@@ -315,9 +314,10 @@ p {
 }
 
 .logo.footer {
-  display: block;
+  display: inline-block;
   padding: 0;
   margin-bottom: 20px;
+  margin-right: 0;
 }
 
 .logo.footer > span {
@@ -329,7 +329,7 @@ p {
 }
 
 .footer-link {
-  display: block;
+  display: inline-block;
   margin-bottom: 9px;
 
   font-size: 14px;
@@ -403,8 +403,8 @@ p {
 }
 
 .list-wraper {
-  padding-top: 20px;
-  padding-bottom: 20px;
+  padding: 20px 24px;
+
   border-bottom: 1px solid var(--color-border);
   border-left: 1px solid var(--color-border);
   border-right: 1px solid var(--color-border);
@@ -412,8 +412,6 @@ p {
 
 .project-titel {
   margin-bottom: 4px;
-  padding-left: 24px;
-  padding-right: 24px;
 
   font-weight: 700;
   font-size: 18px;
@@ -423,9 +421,6 @@ p {
 }
 
 .project-text {
-  padding-left: 24px;
-  padding-right: 24px;
-
   font-size: 16px;
   line-height: 1.88;
   letter-spacing: 0.03em;
